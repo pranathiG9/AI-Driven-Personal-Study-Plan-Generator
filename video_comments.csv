@@ -1,0 +1,361 @@
+Author,Comment,Likes,Timestamp
+@theSeniorSDE,Thanks for making such informative videos. I am preparing for interviews and your channel is helping me alot. I will let you know after I crack my interview 😊,433,2020-10-22T04:16:42Z
+@raghaakhil4118,"What about oops and next concenpts like hash,set collection",0,2025-01-14T08:23:28Z
+@abhishekghosh5189,Udemy course for Springboot is not accessible.  can you check once &amp; let me know,1,2025-01-10T08:27:49Z
+@kathiharsha,"Questions with in detailed answers:<br>===============================<br><br>1. Why is Java not 100% object-oriented?<br>Java is not considered 100% object-oriented because it uses primitive data types (e.g., int, char, boolean) which are not objects. These types are used for performance optimization, avoiding the overhead of object creation. To work with primitive types as objects, Java provides wrapper classes (e.g., Integer, Character). Additionally, certain keywords like static and null also do not align with the principles of object-oriented programming.<br><br>2. Why are pointers not used in Java?<br>Java does not use pointers to enhance security and simplify programming.<br><br>Security: Direct memory access through pointers can lead to security vulnerabilities, such as buffer overflows.<br>Simplicity: Managing pointers can make the code more complex and error-prone. Java abstracts memory management with features like garbage collection, making it developer-friendly and less error-prone compared to languages like C/C++.<br>3. What is a JIT compiler in Java?<br>The Just-In-Time (JIT) compiler is a part of the Java Virtual Machine (JVM) that improves performance by compiling bytecode into native machine code at runtime.<br><br>How it works: The JVM first interprets the bytecode. When a method is called frequently, the JIT compiler compiles it into machine code for faster execution.<br>Benefit: This hybrid approach of interpretation and compilation enhances Java’s performance while retaining its platform independence.<br>4. Why is String immutable in Java?<br>The immutability of String in Java offers several advantages:<br><br>Security: Strings are used in sensitive operations like database connections and file paths. Being immutable ensures these values cannot be altered maliciously.<br>Caching: String literals are stored in a String pool, and immutability allows reusability without creating duplicate objects.<br>Thread Safety: Immutable objects are inherently thread-safe, as their state cannot change after creation.<br>5. What is a marker interface?<br>A marker interface is an interface that has no methods or fields but is used to signal a specific capability or behavior to the JVM or compiler.<br><br>Examples: Serializable, Cloneable, Remote.<br>Purpose: It is used as a &quot;tag&quot; to indicate that a class has a specific property. For example, implementing Serializable tells the JVM that the class objects can be serialized.<br>6. Can you override a private or static method in Java?<br>Private methods: Cannot be overridden because they are not visible to subclasses. They are bound at compile time.<br>Static methods: Cannot be overridden because they belong to the class, not an instance. However, you can hide a static method by defining a method with the same name in the subclass.<br>7. Does finally always execute in Java?<br>The finally block in Java is almost always executed, regardless of whether an exception is thrown or caught.<br><br>Exception: It won’t execute if the JVM terminates abruptly (e.g., System.exit(), power failure).<br>8. What methods does the Object class have?<br>The Object class provides these methods, which are inherited by all Java classes:<br><br>clone() – Creates a copy of the object.<br>equals(Object obj) – Checks for equality between objects.<br>finalize() – Called by the garbage collector before object destruction.<br>getClass() – Returns the runtime class of the object.<br>hashCode() – Returns the hash code of the object.<br>notify() – Wakes up a thread waiting on the object&#39;s monitor.<br>notifyAll() – Wakes up all threads waiting on the object&#39;s monitor.<br>toString() – Returns a string representation of the object.<br>wait() – Causes the thread to wait until it is notified.<br>9. How can you make a class immutable?<br>To make a class immutable:<br><br>Declare the class as final so it cannot be extended.<br>Make all fields private and final to prevent modification after initialization.<br>Do not provide setter methods.<br>Initialize fields through the constructor only.<br>Ensure deep copying for mutable objects passed to or returned from the class to prevent external modification.<br>Example:<br><br>java<br>Copy code<br>final class ImmutableClass {<br>    private final String name;<br><br>    public ImmutableClass(String name) {<br>        <a href=""http://this.name/"">this.name</a> = name;<br>    }<br><br>    public String getName() {<br>        return name;<br>    }<br>}<br>10. What is a singleton class in Java, and how can we make a class singleton?<br>A singleton class ensures that only one instance of the class is created throughout the application.<br><br>Steps to create a Singleton class:<br><br>Private constructor: Prevents direct instantiation.<br>Static instance: Holds the single instance of the class.<br>Public static method: Provides access to the single instance.<br>Example:<br><br>java<br>Copy code<br>public class Singleton {<br>    private static Singleton instance;<br><br>    private Singleton() {<br>        // Private constructor<br>    }<br><br>    public static Singleton getInstance() {<br>        if (instance == null) {<br>            instance = new Singleton();<br>        }<br>        return instance;<br>    }<br>}<br>Thread-safe Singleton (Using synchronized or Double-Checked Locking):<br><br>java<br>Copy code<br>public class Singleton {<br>    private static volatile Singleton instance;<br><br>    private Singleton() {<br>    }<br><br>    public static Singleton getInstance() {<br>        if (instance == null) {<br>            synchronized (Singleton.class) {<br>                if (instance == null) {<br>                    instance = new Singleton();<br>                }<br>            }<br>        }<br>        return instance;<br>    }<br>}<br>This ensures only one instance is created, even in multithreaded environments.",1,2025-01-02T17:23:57Z
+@bhavyamathur211,didi khareed lo windows,0,2025-01-02T06:56:40Z
+@mohammedshabbirahmed976,you rock and your knowledge and explanation is outstanding,1,2024-12-20T07:20:28Z
+@tmurari9452,Thanks you so much mam <br><br>can i have in pdf,0,2024-12-16T10:23:16Z
+@RajaRaja-c1g5f,Thank you very much Very help for Interview,1,2024-11-26T16:30:09Z
+@hemanthkumarsk2956,Thanks!! Why is your voice so sweet 😂❤,1,2024-11-19T11:02:28Z
+@王时代,Thanks for sharing!,0,2024-11-16T08:53:13Z
+@王时代,"<a href=""UCkszU2WH9gy1mb0dV-11UJg/NvgfY9aeC_OFvOMPkrOAsAM""></a>",0,2024-11-16T08:43:49Z
+@Amarnath-ik4fy,"top class, but please activate your windows😜",1,2024-11-14T13:48:51Z
+@thethreesowrdz,"<a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=889"">14:49</a> The way you say &quot;similar&quot; got me!",0,2024-11-06T16:13:30Z
+@Chandan-nr2dv,if JIT compiles the code to convert it into machine code then why there is Interpreter,2,2024-10-20T15:11:51Z
+@shambhavirai,"Imagine if someone gave you a set of tasks in German. Interpreter reads the tasks as he goes, translates each task into English, and then does the task. Every time he does a German task, he has to translate it again...even if he already did a similar task or the exact same task before. A JIT keeps often used tasks translated in English and refers back as needed. If a task is executed only once, it often does the same thing that an interpreter does. AOT compilers translate all tasks into English before executing them.",0,2024-10-14T12:14:24Z
+@borisvainrub6341,Finger  UP 👍 you try to run this video on X2 speed,1,2024-10-07T18:28:04Z
+@Bazz_Ball,Hindi bol,0,2024-10-04T05:29:40Z
+@prasadjoshi007,Thanks ma&#39;am Very Appropriate Interview Questions and Answers.,0,2024-09-16T06:32:07Z
+@ronakparjapati2264,&quot;Does finally always execute in java&quot; ? Mam my doubt is this...finally is a block not method,0,2024-09-15T07:24:13Z
+@ReshmaSDevan,Thanks,0,2024-09-10T18:13:26Z
+@RazaHussain96,please keep the background of your slides dark/black as its uncomfortable for someone people to watch on light/white background,1,2024-08-13T15:48:56Z
+@SreedharaGS-q4h,Purpose: JIT compilers aim to improve program performance by compiling frequently executed parts of code into native machine code at runtime.,6,2024-08-12T07:12:12Z
+@DeepaliIngole-g6c,How to call java methods/classes (eclipse based maven project)  to .Net framework (C# code),0,2024-07-30T13:15:56Z
+@vickychatap2734,I watched this video before every interview.. good understanding and love you voice ❤️,0,2024-07-19T13:45:57Z
+@SamPaulIsaac,"Thanks team for the wonderful work, it really helps.",1,2024-07-10T06:35:21Z
+@khushisaraswat5826,Nice content mam😊,1,2024-07-05T18:21:25Z
+@prateektripathi100,finalize method has been deprecated in Java 9,0,2024-06-27T16:07:56Z
+@gopinathsah,"keep your phone away please, while making videos, sounds are coming from your phone.",0,2024-06-21T07:00:46Z
+@rrohan7351,..,0,2024-06-19T19:03:10Z
+@pearlssnowboard3793,"Thanks for your vedio, do you have some scenario interview question for senior Java software engineer?",0,2024-06-18T02:52:53Z
+@utsavmodh9698,You have fabulous speech🎉 of course great content as well. Outstanding.. Keep uploading ❤,1,2024-06-15T15:25:12Z
+@utkarshvishwakarma8871,Great video!! It would be helpful if you provide those ppts for recap,0,2024-06-15T08:12:10Z
+@gamefuzer,hello sister if this all content is there in pdf form then make available it in description please!,0,2024-06-11T05:32:39Z
+@athul03,What is the need of Interpreter then? Cant the JRE use JIT compiler for the whole conversion of byte code to  machine code?,0,2024-06-06T13:59:18Z
+@parveensyed807,Is this question usefull for 7years also,0,2024-05-29T08:58:54Z
+@gauravshirskar5633,"Thank you so much Mam!! I have one doubt here on JIT compiler , I read somewhere JIT is use for repeated line/block of code so it enhance performance ..Its just doubt",0,2024-05-25T18:36:16Z
+@TruptiChunkikar,"very irritating voice and accent, I wanted to listen it till last but could not bear it till end so dropping off this video",1,2024-05-21T12:06:11Z
+@wolverine87833,"A wonderful collection of videos. I did watch your videos which of course has contributed around 70% to cracking interviews if not 100%.<br><br>A contribution from your videos made me land a job at one of the BIG 4s.<br><br> Thank you, great job!",1,2024-05-13T18:54:02Z
+@hadduken37,"Thank you mam! I got a job offer today because of all you taught!<a href=""UCkszU2WH9gy1mb0dV-11UJg/Rf90XtDbG8GQ8gTz_prwAg""></a>",1,2024-05-04T01:31:22Z
+@hadduken37,Thank you so much mam! I got a job offer because of you.,7,2024-05-04T01:30:05Z
+@akankshasharma9369,thanks for such important video i cracked my interview and urs video helped alot ty so much for such efforts and making it free for us,1,2024-05-01T06:59:35Z
+@ra90451,Great presentation,1,2024-04-30T19:12:08Z
+@mohammadzain32,Is JIT Interpreter,0,2024-04-29T10:42:47Z
+@gauravsrivastava17,Good video with great questions,1,2024-04-24T15:23:36Z
+@choulvijay8281,Thank You mam...,2,2024-04-17T12:12:51Z
+@anushkachawla1019,Yes this video helps a lot ❤️,1,2024-04-17T11:54:34Z
+@VenkateshChejarla-kw4wn,Can you please tell me any consultancy for jobs,0,2024-04-10T16:11:50Z
+@shah_castic,Are all these notes and question/answers from CDAC? Any chances of that?<br>Just asking out of curiosity!<br>You have done a great job with this video 🎉,1,2024-04-07T18:29:04Z
+@pallavi5284,"Di you are the best, hardly there are people who can explain the way you can explain I have learnt so many things because of u. Di but I have one request if u start DSA related series there  is no one other than you have the ability to make us understand those hard algorithms in simple way on whole YouTube world. It will really help everyone if u too enter into DSA training",1,2024-04-05T12:31:47Z
+@oldblood3383,"jaj tam dzer mor berany bozis txeq, sax tex duq eq qunem dzer abracy lavy qunac gandonner",0,2024-04-04T22:39:49Z
+@mihirumrotkar6534,Nice explanation ma&#39;am 😊,0,2024-04-03T12:20:42Z
+@366degree,JIT Complier Explaination is not clear.,0,2024-04-01T07:19:42Z
+@Georgianlegend,thx 😍,1,2024-03-26T11:39:51Z
+@ajitpeshane,Thanks,3,2024-03-25T02:34:55Z
+@legendarygaming8180,singleton-<br>public class Singleton {<br><br>    private static Singleton instance;<br><br>    private Singleton() {}<br><br>    public static Singleton getInstance() {<br>        if (instance == null) {<br>            instance = new Singleton();<br>        }<br>        return instance;<br>    }<br>},2,2024-03-19T03:40:45Z
+@anushavepuri4152,Really helpful.... I never seen these kind of vedios earlier.... Really appreciate your great work mam..... Please keep on gng.... Thank you so much .......,1,2024-03-13T16:15:49Z
+@upputuriprabhakar8560,out of all this questions 6 questions were asked in my DP World interview. I would have known this channel earlier. My bad,0,2024-03-04T03:27:04Z
+@vinayspv,Synchronized is not required for singleton?,1,2024-02-11T06:16:36Z
+@Vijayc-e9k,Jai Shree Ram,0,2024-01-22T06:45:57Z
+@Smile-queen143-l9h,Thank you so much ma&#39;am ❤❤❤❤❤❤❤❤❤,1,2024-01-16T13:17:47Z
+@guruvachan2004indian,In this playlist enough for a fresher Java developer? ___plzz reply,0,2024-01-07T10:14:09Z
+@everyday___life,"Singleton is one instance in one JVM. <br>So if I run the same program twice or thrice in a single JVM, there will still be only single instance?",1,2023-12-18T23:52:49Z
+@raghavendrab.a.2452,"Q) How to make the class immutable, if there are collection variables in the class, they.n there is an extra step to make them read only",1,2023-12-12T12:03:02Z
+@manasigurav1538,helpful... provide this ppt in description also👍👍,0,2023-12-10T05:43:40Z
+@shivaprasad.m9499,Hi mam <br>&quot;Shiva is a person &quot; in this statement whicj one is object and which one is class,2,2023-12-08T08:12:23Z
+@vivekpatel6721,"Yes I have a doubt <br>So I have read that JIT compiler will increase the efficiency of interpreter.<br>Interpreter will read code line by line , interpret it and then execute it. And If same method calls again It will again interpret and execute it<br><br>hence , JIT compiler will create native method for that part and same method calls again then It will use that native method for that part.<br>and also native methods are those methods which are in non java  langauge.<br>So, Is JVM using another language also internally?<br><br>Am I thinking right ??<br>Just let me know and If not, kindly correct me please.",1,2023-12-06T12:16:55Z
+@danfredo-er4gd,"Great content, but very bad voice intonation and accent.Why do u sound like that?so annoying.",0,2023-12-01T05:55:07Z
+@adityadeshmukh7413,Can i know name of lady who is talking in video,0,2023-11-30T08:22:03Z
+@akashlathiya2725,"Thanks buddy, i got 7L package",9,2023-11-27T18:48:07Z
+@utsavkaushal9063,This video was too good. One of my friends was asked how to make a class immutable in an interview. He was also asked how to make a singleton class. This video has both!,1,2023-11-19T16:12:18Z
+@AmjadSyedd,"<a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=867"">14:27</a> Sub se phele 😄, but that was cute",1,2023-11-16T16:54:57Z
+@daniil3815,rumors said she still didn&#39;t Activate Windows.,0,2023-11-03T12:58:21Z
+@sayedahammed6014,Amazing 😊,2,2023-10-30T17:26:21Z
+@nonegirl112,Thank you may be this will be help me in future,1,2023-10-22T05:09:32Z
+@swapnilpandey6519,"Great work, helped alot, kudos to hard work!",1,2023-10-18T15:34:38Z
+@CHALLENGESTORY,ok so if JIT compiler was introduced to fasten the process then why is the interpreter still in use?,1,2023-09-26T11:24:56Z
+@mr_ashu_vlogs,CAN YOU MAKE A VIDEO ABOUT FULLY  JAVA INTERVIEW TOPICS  WHICH WILL IMPORTANT ?,0,2023-09-09T11:26:02Z
+@mr_ashu_vlogs,CAN YOU MAKE A VIDEO ABOUT FULLY  JAVA INTERVIEW TOPICS  WHICH WILL IMPORTANT ?,2,2023-09-09T11:25:19Z
+@KUMAR-f8p7m,Can you provide me the source link for ppt materials?,1,2023-09-02T16:38:13Z
+@АльфредГордан,You need to activate your windows,1,2023-08-28T12:16:46Z
+@hakobhn,"Hi. Method hiding - &quot;If a subclass (child class) defines a static method with the same signature as a static method in the superclass (parent class), the subclass method conceals the one in the superclass&quot;. Method hiding occurs because static methods are resolved at compile time. Please, replace &quot;same return type&quot; with &quot;same signature&quot;.",3,2023-08-27T07:56:49Z
+@rahulsingh-wz1jx,Marked interface basically provide some ability to the object  and marked interface doesn&#39;t contain any method,1,2023-08-24T20:54:39Z
+@Rkreddy123,Thank you ❤,1,2023-08-19T09:01:38Z
+@LegendaryWisdomQuotes,"<a href=""https://www.youtube.com/watch?v=o4gtigc95MA"">https://youtu.be/o4gtigc95MA</a>",0,2023-08-13T20:42:13Z
+@projectvideos8140,thnx for your explanation,0,2023-07-23T12:57:23Z
+@souravharkara7585,Ma&#39;am your linkdin id ?,0,2023-07-19T19:26:22Z
+@rahultyagi2136,"No, in Java, a class cannot be declared as final",1,2023-07-12T06:22:56Z
+@dumbbo123,"Thank you jee for your video, bohot acha hai aur kaafi useful thi! subscribed!!",1,2023-07-06T02:13:55Z
+@priyay,Wow ... Wednesday Eve i am having an interview.. thanks a lot fr this clarity ❤,3,2023-06-19T04:55:39Z
+@jagrutipatil1020,Thanks mam...☺️,1,2023-06-15T14:00:26Z
+@gunjanroy8876,Can you please upload the slides,0,2023-06-06T16:53:53Z
+@prahladupadhyay5518,"the best part of this video is when she say &quot;Sabse Pehele&quot; in hindi  in <a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=867"">14:27</a> sec",1,2023-05-22T07:43:39Z
+@ashrafalishaik2319,thanks very hlepfull,1,2023-05-20T09:12:20Z
+@itsmesaquib,Nice set of questions. Thanks ❤,2,2023-05-19T18:27:21Z
+@vijaykumar-tp8vx,Why pointers are unsafe.. please explain.,0,2023-05-15T13:33:43Z
+@consistentlearners,"Thanks for making such videos. These videos are very helpful for interview preparation. <br>I would like to correct you on one question mentioned in the above video related to JIT compiler. The probable accurate answer to it would be below answer.<br><br>When a Java program is executed, the JVM interprets the bytecode one instruction at a time. This process is relatively slow, because each bytecode instruction must be interpreted by the JVM. However, when the JVM encounters a loop or frequently executed code, the JIT compiler compiles that bytecode to native machine code and caches the result, so that subsequent executions of the same code can be executed more quickly.",47,2023-05-13T03:35:24Z
+@saaii9,I think you know Hindi also so can you make videos in Hindi also it will help to understand clearly.,1,2023-04-19T04:56:09Z
+@zeeshanahmad7741,speed of voice fast,0,2023-04-16T11:49:53Z
+@abhiie18,"at <a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=542"">09:02</a> if we override static moethod then it will hide the child class method not the parent class.",0,2023-04-15T12:41:04Z
+@yashwanthreddygowreddigari1997,Thank  you,1,2023-04-09T13:39:27Z
+@coolyaaro,"Thank you so much team Code Decode , your videos were a huge help to prepare for interviews  ,truly grateful for your videos ,wishing you all the success you aspire",7,2023-04-06T08:15:33Z
+@maheshkavya5470,I can&#39;t  understanding what topic is going in the video I was watching about java but in this video what questions discussing also n&#39;t understanding to my mind,1,2023-04-02T18:28:31Z
+@kirankumarmothukuri7660,Your videos are amazing. it is helping me a lot for interview preparation. I liked subscribed your channel.,3,2023-04-01T17:02:05Z
+@ashishjoseph8510,Great,1,2023-03-30T16:27:28Z
+@gangumallakrishna1944,Thank u,1,2023-03-19T12:35:13Z
+@Sandeepkumar-iw2vi,Mam aap hindi main padhaya karo,1,2023-03-18T17:15:15Z
+@Sandeepkumar-iw2vi,Mam aap hindi main padhaya karo,1,2023-03-18T17:15:03Z
+@pavanichamarthy206,"Thank you for the video, it is helpful to brush up my skills. Also I found this channel helpful<br><br><a href=""https://www.youtube.com/@reddyme/shorts"">https://www.youtube.com/@reddyme/shorts</a>",0,2023-03-13T21:57:44Z
+@Rajendra-k3x9g,Thank you mam you are helping a lot 🙏🙏🙏🙏,1,2023-03-13T17:15:58Z
+@christokawuma6962,"YOU PRECISE TO THE POINT, LOVE YOUR CONTENT!!!!POSSIBLE TO HAVE PRACTICAL SPRINBOOT AND ANGULAR PROJECTS...wouldnt mind having subcription",0,2023-03-05T19:34:48Z
+@sitharainfotechnologies304,May I know your name madam?,0,2023-02-24T04:47:03Z
+@kshitijnimkar4252,can you make the ppt available for each video which u have presented?,1,2023-02-21T09:16:12Z
+@wtfun5465,Thank u mam for covering these all questions .. one of the best  video on java 👏..,2,2023-02-19T23:28:04Z
+@Shankar-lz7zs,Nice mam,1,2023-02-17T13:34:18Z
+@deardeva9268,Can u expalain experience interviews,1,2023-02-15T16:46:56Z
+@Squizen,Thank you for this video :),0,2023-02-15T12:49:41Z
+@lizzyshen233,"Thank you very much! This video gives very clear ideas about these questions, helps a lot! Do you have similar videos for other languages? Thanks!",2,2023-02-10T19:14:48Z
+@mikedelta658,Wonderful! It will help me for my upcoming Java developer interview .,1,2023-02-10T15:06:11Z
+@CodingWorld369,"Then why we are using interpreter,<br>Is jit compiler unable to execute the machine code ?",0,2023-02-09T14:15:20Z
+@adennis200,"Hmm but since pointers are not used in java and the questions are about core java, does it really make sense to ask about pointers.<br>I never had anything to do with pointers cause in my languages I use they don&#39;t exist.<br>So why should I know about them?",1,2023-02-07T14:42:20Z
+@musicblogvikasrockzeditz,Most imp questions collected thanku for the exlanation,5,2023-01-26T07:22:05Z
+@pradipta.007,Pls back your theory with a small coding example then It would be more helpful,3,2023-01-24T20:07:08Z
+@shivanikulkarni9192,Thank you so  much for this series.. It helped to get me job at CITI,3,2023-01-10T13:27:36Z
+@rohitgomkar1095,Your imformative videos helping me alot,1,2023-01-05T07:53:52Z
+@sagarhari,Just wow content 😀<br>Thank you!,2,2022-12-22T16:41:00Z
+@kidsacting9371,If there is jit present in jre then why there is need of interpreter,0,2022-12-21T12:17:01Z
+@Arjun2mkap3929,"<a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=524"">8:44</a>",0,2022-12-21T08:10:42Z
+@rohini7160,I&#39;m really sry Madam if I hurts you,1,2022-12-18T14:24:22Z
+@rohini7160,Ur voice is not comfortable to listen,1,2022-12-17T14:01:17Z
+@OG-ek2kw,A great great video thank you very much,1,2022-12-11T18:14:15Z
+@okaberintarou5020,This was beautiful! Keep up the good work.,2,2022-11-30T05:40:09Z
+@sproutboot,wow I wish I knew your channel sooner.,1,2022-11-18T17:00:44Z
+@chishamalama,Thank you for your video. Very helpful,1,2022-11-03T15:43:38Z
+@shankar7435,"Great list of Q&amp;A. Just wanted to add one more to the extension of last question. How can you make singleton class thread-safe. <br><br>In this example, singletonCount is used to check number of instances, which is optional. <br><br>Singleton Class:<br>========================<br><br>public class Singleton {<br><br>    private static Singleton singleton;<br>    private static Object mutex = new Object();<br>    private static int singletonCount;<br><br>    public Singleton() {<br>        singletonCount++;<br>    }<br><br>    public static int getInstanceCount() {<br>        return singletonCount;<br>    }<br><br>    public static Singleton getInstance() {<br>        Singleton result = singleton;<br>        if (result != null)<br>            return result;<br>        synchronized (mutex) {<br>            if(result == null) {<br>                singleton = result = new Singleton();<br>            }<br>        }<br>        return result;<br>    }<br>}<br><br><br><br><br>Please feel free to use the below to test the above code for Thread safety feature.<br>=======================================================================<br><br>import java.util.concurrent.ExecutorService;<br>import java.util.concurrent.Executors;<br><br>public class RunTest {<br>    public static void main(String[] args) {<br>        //Singleton singleton = Singleton.getInstance();<br><br>        ExecutorService executorService = Executors.newFixedThreadPool(3000);<br>        int i = 0;<br>        for (i = 0; i&lt;100000; i++) {<br>            executorService.submit(new Runnable() {<br>                @Override<br>                public void run() {<br>                    try {<br>                        Thread.sleep(7);<br>                    } catch (InterruptedException e) {<br>                        throw new RuntimeException(e);<br>                    }<br>                    //System.out.println(&quot;Thread : &quot;+Thread.currentThread().getName());<br>                    //Singleton singleton = Singleton.getInstance();<br>                    SingletonStatic singletonStatic = SingletonStatic.getInstance();<br>                }<br>            });<br>        }<br><br>        executorService.shutdown();<br><br>        while(!executorService.isTerminated()){<br>            try {<br>                //System.out.println(&quot;Before Sleep&quot;);<br>                Thread.sleep(1000);<br>            } catch (InterruptedException e) {<br>                throw new RuntimeException(e);<br>            }<br>        }<br><br>        System.out.println(&quot;Number of singleton objects created are : &quot;+SingletonStatic.getInstanceCount()<br>        +&quot; for iterations &quot;+i);<br>    }<br>}",1,2022-10-31T07:12:13Z
+@banothmanjula5746,Thank you for given this information,0,2022-10-28T01:23:33Z
+@sankarsubramanian6312,"Nice explanation, thank you :)",1,2022-10-11T16:09:49Z
+@5b5hariharancse-b81,"Java is interpreted language, right?<br>Then why is there a compiler interpretation problem... so is java semi- interpreted language",2,2022-10-11T12:15:46Z
+@independentboi8499,Thank you so much for this amazing informative video.... We need more content....,1,2022-10-05T15:47:33Z
+@tanvirkaurbedi,pdf of this video?,0,2022-09-28T06:33:40Z
+@raviramkiranbharadwaj6676,In private class we access through static method,0,2022-09-28T05:10:01Z
+@hackstreet781,i like system.crash() :p,1,2022-09-27T04:32:10Z
+@harsh13200,For a sec i thought how my Windows isn&#39;t activated,2,2022-09-24T03:11:04Z
+@shreyashachoudhary480,"Informative, thanks!",1,2022-09-22T03:32:31Z
+@ssc-inspiration,TCS NQT interview question please,1,2022-09-14T18:06:01Z
+@KARTHIKREDDY1356,will u pls tell me in a simple way about jit in java compiler,0,2022-09-14T16:20:28Z
+@coverdrive0073,Great video mam.. thankyou soo much.,2,2022-09-08T06:25:28Z
+@abhijit9595,Create Videos on Oops Concepts Series,0,2022-09-06T14:56:12Z
+@UmmakaJagadish,tq madam,2,2022-08-02T03:25:12Z
+@dhanyaraj0,"Hi Team,<br>I have a doubt on singleton design pattern.If we are creating private constructor , no other class can create instance of this particular class.then how the other class will be able to get this class instance ?",1,2022-08-01T04:56:09Z
+@jaggyjack1005,Wow very informative thank you mam,2,2022-07-31T08:37:10Z
+@extempere,Full mouth of English...,1,2022-07-29T09:38:12Z
+@shubhangikhedkar6483,"Hey could you please help me out I love Java language ,my concept is crytral clear on each and every topic but when I come to solve some problem or else implements on that point I don&#39;t able to solve it quickly or some time I felt I am not born for coding please suggest?",0,2022-07-29T08:02:59Z
+@ankush_in_sync5998,Thank you.,1,2022-07-21T12:43:08Z
+@abhishekkumarjha5503,Your singleton implementation is not thread-safe.,1,2022-07-12T04:29:12Z
+@personelpurpose1531,Is it easy to get c2h jobs after having a break in career for 2 years,1,2022-06-28T09:17:08Z
+@smarthasab1597,Hello code decode <br>I have an interview on wednsday on  6/22/2022<br>@mahharish university masters programme<br>Please tell me what to do.<br>I was studying little bit before seeing this videos but its make me to think what to know . Best video <br>Thank you so much wait form u more,0,2022-06-19T21:02:57Z
+@SaiTeja-ym2er,Thanks to whole team. Because of your tutorial and important guidelines. I had cracked the 3 companies with satisfied package.,16,2022-06-10T13:08:25Z
+@gajananraut9863,thanks a lot for explaining all the Questions  in such a great way ..,5,2022-05-31T14:47:59Z
+@akash89ful,Learnt so many new things today....a big thank you !!,1,2022-05-29T18:06:48Z
+@debuggedcommunity,"latest java interview questions <a href=""https://www.youtube.com/playlist?list=PLR0Mp9jDLXH3ZbKZekq33XDQXQftBB3cw"">https://www.youtube.com/playlist?list=PLR0Mp9jDLXH3ZbKZekq33XDQXQftBB3cw</a>",0,2022-05-27T20:50:39Z
+@manishsharma-ts1rr,Nice content..can we get pdf of all these questions and answers..thanks,1,2022-05-22T11:57:14Z
+@kausalyasathi8480,"Hi <br>I have a doubt, if Jit compiler converts byte code into machine executable code efficiently then why again interpreter should be there in the JRE. please clarify.",4,2022-05-20T04:45:04Z
+@dipaliyadav-koli1060,Thank you dear for such a great video.. Very helpful to brush up your skills.. ❤,2,2022-05-13T12:47:33Z
+@justengineersthing913,"!! Attention !!<br>Java Frequently Asked Interview Question is There on my channel. <br>Go check it out , it will be worth you time.<br>don&#39;t forget to subscribe.",0,2022-05-01T18:18:19Z
+@justengineersthing913,"!! Attention !!<br>Java Frequently Asked Interview Question is There on my channel. <br>Go check it out , it will be worth you time.<br>don&#39;t forget to subscribe.",0,2022-05-01T18:18:11Z
+@justengineersthing913,"!! Attention !!<br>Java Frequently Asked Interview Question is There on my channel. <br>Go check it out , it will be worth you time.<br>don&#39;t forget to subscribe.",0,2022-05-01T18:18:07Z
+@justengineersthing913,"!! Attention !!<br>Java Frequently Asked Interview Question is There on my channel. <br>Go check it out , it will be worth you time.<br>don&#39;t forget to subscribe.",0,2022-05-01T18:18:04Z
+@kalaisuyambu4966,Make a class immutable <br>Last point not cleared,1,2022-04-18T13:55:34Z
+@nadiyalokesh7658,Please make a video on deep copy and clonaable,1,2022-04-17T09:30:52Z
+@subramanianchenniappan4059,All your videos are good .,1,2022-04-09T07:13:53Z
+@cutiesri48,I have tcs interview can anyone plz suggest me the important topics that I can cover for interview..,1,2022-04-07T10:32:36Z
+@sumeetsapla,Singleton explained very nicely. Thanks for video👍,1,2022-03-31T10:56:02Z
+@shaileshtekale2287,Superb coverage !!! ... Can i get these questions compiled in single document? It will be great help...,1,2022-03-26T06:14:55Z
+@jayatekale2823,World’s best #1 series for preparing interview questions on Java got hired 😇 thank you so much it really really helped me out to be more confident and clearing all doubts while covering all important concepts.,6,2022-03-23T15:26:54Z
+@priyasujitsalunke5274,"Thank you so much ma&#39;am. I am referring all your Videos since last one month and I have cracked interviews of TCS, LTI, HCL, Wipro, HSBC. Received a much better offer than I expected. Thank you so much ☺️ god bless you ❤️",47,2022-03-23T02:39:24Z
+@krishnavamsireddy6098,Thanks sister 🌿🌿🌿,1,2022-03-12T17:46:33Z
+@richamehta1179,Can you give a real life usage/implementation of the singleton class?,4,2022-03-07T17:42:05Z
+@cuteharman2019,thanks mam ❤️,1,2022-03-01T03:47:45Z
+@themahendra001,Thanks for sharing the knowledge!,1,2022-02-26T18:11:37Z
+@naveenkumarkandregula2959,Great. Nicely explained without any kind of nonsense,3,2022-02-26T10:01:45Z
+@MrAsgar123,"Awesome Explanation, Thank you so much for sharing this useful knowledge for interview purposes.",5,2022-02-13T08:44:46Z
+@1ankushraina,"Thank you for the questions, highly appreciate.<br>But just one thing around JIT compiler, you just mentioned it compiles bunch of code, if that is the only answer then why interpreter is in place, Why not JIT take over and do the whole compilation rather than interpreter..?<br>there must be something more to that bunch of code you mentioned...&amp; that is what an interviewer will ask as a follow up question<br>Can you please clarify",1,2022-01-20T09:49:54Z
+@ricardotrejoruiz5776,"Method hiding violate the Liskov substitution principle, remember that. And also violates that principle if a method implementation doesn&#39;t what is supusted to do the interface or parent class. Easy axample, you have an interface called Vertebrate with a method Integer numberOfBones() and want to use classes implemented it. Is not valid to return zero bones, because it suposed to have bones. That simply is.<br>Interfaces markers are recomended to avoid it. Doesn&#39;t bring any information about the object",1,2022-01-17T11:06:25Z
+@ricardotrejoruiz5776,This question are true. In interview they asked me 5 of them,1,2022-01-17T10:54:28Z
+@prathambante15,Thank you so much maam. You teach very well🙏🙏,2,2022-01-16T11:32:58Z
+@paruparvati4981,What happens when we call system.exit() method after the finally block? Will it execute finally block?,1,2022-01-09T06:07:34Z
+@FastTrackDevOps,"<a href=""http://www.youtube.com/results?search_query=%23impressive"">#impressive</a>",1,2022-01-08T06:27:30Z
+@sagargoyal7540,Thanks for making this video. Can you please prove these notes it will be helpful for me cz my placements are near.,1,2022-01-07T17:03:40Z
+@shameemahamad2617,"surely the questions you have selected in this video are all very important, thanks for making such an informative video.",6,2022-01-06T13:39:14Z
+@kuntalchaudhari5928,Thank you so much for making very informative videos. I am able to crack interviews and got 3 offers in hand.. thank you so much,3,2022-01-03T11:09:28Z
+@AllinOne-et2on,Please make a video on object cloning and their types ❤️,2,2021-12-27T16:07:07Z
+@VibhaHande,"Hi <br>Your videos are great and they really help to refresh and learn and prepare for interviews quickly, thank you :)<br>Can you make videos on types of memory, threads, and multithreading (concepts)? (Your current multithreading video is for very deep understanding and for hands-on working - would like to have a quick refresher and basic tricky questions on threads and multi-threading. <br>All the best :)<br>Thank you!",16,2021-12-01T17:07:03Z
+@omkarbhujbal6142,Ma&#39;am explain JIT compiler again,1,2021-11-30T09:29:17Z
+@akashshirude910,"In 2 nd question , are we compiling code two times?",1,2021-11-28T05:53:57Z
+@-Laharithalla,"Mam. I have virtusa interview . It was said that they ll ask from <a href=""http://java.is/"">java.is</a> this video helpful for my interview.",1,2021-11-26T10:17:27Z
+@gokulaher2476,"If you create a same static method with &quot;same name&quot;, &quot;same arguments list&quot; and with &quot;same return type&quot; in sub-class then it is called as method hiding <br>Similarly <br>If you create a same private method with &quot;same name&quot;, &quot;same arguments list&quot; and with &quot;same return type&quot; in sub-class  then what it is called as ?",0,2021-11-20T14:47:42Z
+@gokulaher2476,I have a question Q) Can I create my own marker interface ? an interface with no methods in it<br>for example if I create interface a     public interface MyOwnMarkerInterface{ } will it be consider as a marker interface?  can now the MyOwnMarkerInterface will behave same as Cloneable or Serializable <br>pl. provide detail answer... Thank you,1,2021-11-20T14:39:56Z
+@paulvincent9473,Thank you 🙏,1,2021-11-17T19:29:06Z
+@giridatta1525,Thank you so much mam,1,2021-11-06T09:56:47Z
+@shadabalam3681,"Question 3:- why string is immutable ? <br>Answer :- the very correct answer i found from different source -&gt; because of hashing related collection , key takes as string , so string is immutable .  [correct me if im wrong ]",1,2021-10-25T18:49:34Z
+@shivampatil5709,In Method Hiding Super class method is hidden from sub class therefore sub class is not able to change its implementation.,0,2021-10-18T13:15:27Z
+@venkatb8317,"Hi Thanks for tutorials, can you please make a video on &quot;what are the design patterns used in your project&quot; please make a video on it",1,2021-10-16T04:18:52Z
+@sathishraja2406,Mam please make more video for interview,1,2021-10-10T18:52:23Z
+@prasadchougale8865,Thanks nice explanation very helpful ☺️,1,2021-10-08T14:12:31Z
+@HM_Milan,Thank you,1,2021-10-04T21:19:01Z
+@shivanipawar1414,"I started watching before some days only but i like the way you describe.<br>Please if there is any session on ejb , it will help to understand",2,2021-09-28T15:57:12Z
+@ankushborkar9902,Very good questions and answers covered,1,2021-09-27T12:31:31Z
+@shilpawaghmare6166,Can u tell what is auto compilation in java,0,2021-09-26T08:10:23Z
+@varshapardeshi8720,"Hi , one question regarding static method overriding, you mentioned parent class method is hidden? It depends on reference type Right?",1,2021-09-25T18:18:44Z
+@bhavanamahajan3657,"Hi, thank you for this video. Just one question- can we even call static variables with the class object?",6,2021-09-25T17:21:53Z
+@backbenchersclassbbc5089,"I hope this video will help me to get placed in MNC which I am going to attend interview 😁 and your voice is very nice, helping to learn more 😁😁",5,2021-09-23T19:57:48Z
+@mangeshingle7694,Nice one <br>But in singleton class you said private constructor () but whenever we use any modifier on any return type infront of any constructor it will be treated as a normal method. <br>Please make me correct if you not satisfied,1,2021-09-22T14:08:14Z
+@dattu2206,Thank you,1,2021-09-19T03:32:22Z
+@Manish_Kumar_Bihar,it was very informative !!,1,2021-09-15T13:41:02Z
+@101-suvarnaa6,Sprb mam,1,2021-09-13T16:06:18Z
+@srirajpandey593,Valuable information and very important questions. Thanks for making such a lovely video....,2,2021-09-13T13:16:45Z
+@rehaniqbal6330,"Good content, really helped me alot Thank you",1,2021-09-11T10:39:17Z
+@hardikjain9971,I am unable to understand the JIT complier,3,2021-09-08T21:18:42Z
+@Shashwat_Tiwari,"Very helpful video , thank you",1,2021-09-08T18:46:25Z
+@vijaykumar-ut1ze,Can you please provide your number. I need core java training. Please reply asap,1,2021-09-05T11:58:12Z
+@Sandy_sandy143,"Mam can I get job only with strong knowledge about core java  concepts like oops, multithreading, exceptionhandling, collections,file I/o????",1,2021-09-04T17:09:35Z
+@jeejavrajan165,Thank you so much for these videos. Helped me crack 2 of the 3 interviews I attended. I&#39;m joining next week.<br>Thanks a lot ❤️,27,2021-09-01T10:18:08Z
+@anandiyer3114,"<a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=842"">14:02</a> override the readResolve() and return single_instance to retain Singleton behavior at time of Serialization.",1,2021-08-31T15:58:00Z
+@rishikeshjangam9380,Can we overload static method in java ? please reply,2,2021-08-24T11:55:40Z
+@Ravikumar-nf2mu,please upload oops concepts real time examples,1,2021-08-23T16:24:26Z
+@spooja4549,1.why java is not 100% object oriented? <br>2.why pointers are not used in java ? <br>3.what is jit compiler in java? <br>4.why string is immutable in java? <br>5.what is a marker interface? <br>6.can you override a private Or static method in java? <br>7.Does finally always execute  in java?<br>8.what methods does the object class have? <br>9. How can you make a class immutable? <br>10.what is singleton class in java and how can we make a class singleton?,55,2021-08-18T04:17:46Z
+@kazaasekhar,excellent thank you,1,2021-08-17T01:32:05Z
+@sidrakhan5857,Like seriously these are concept making questions that work like blueprints to learn and differencing any language to other one.. hats off mam ❤️,10,2021-08-16T00:15:56Z
+@hirentandel5017,"I am a mechanical engineer and I have a desire to  switch into IT industry, I am learning core Java as one of my friends suggested it. to understand all these exhaust me and after a while I am back on it <a href=""http://again.is/"">again.is</a> there any chance this industry could give me entry level opportunity?",2,2021-08-13T12:18:09Z
+@pbbodino5818,I&#39;ll have interview on Saturday and I&#39;ve been to many as well but they all have different questions for this role. These questions were never been asked but I&#39;ll try to study this still.,3,2021-08-10T12:00:55Z
+@asadahmed597,Nice but it would be great if you could add examples of code while explaining it.,3,2021-08-09T09:44:32Z
+@rajatchaurasia6320,take breath while explaining plz....its just sounds that you are reading newspaper or i m listening it in 2x speed...,3,2021-08-07T21:26:39Z
+@sushaanthg8979,I got confident after watching the video that I can crack the interview,1,2021-08-06T19:21:19Z
+@kavithas51,Pls post video for javascript and react js,1,2021-08-02T09:36:40Z
+@akashjain7319,top class content,1,2021-07-31T07:20:06Z
+@AkanshaGrowArts,loved it !! you are too good !! Mam where do you work? I am super curious :D,1,2021-07-30T09:12:20Z
+@shivamrathod5059,"I had an interview 2 days ago and Immutable class, singleton, Finally, Method Hiding, Java is pure object oriented or not? This questions were asked, I came here just to check different questions for my upcoming TCS Interview 🤗, Wish me Luck, BTW Thanks For this video 💙",18,2021-07-30T04:16:06Z
+@surya5064,"Hi mam, Thanks for the questions<br><br>can u please tell me why we have to do deep copy other than shallow copy??",3,2021-07-28T17:32:28Z
+@HemanthKumar-zk6cg,Can u piz upload java interview programs,1,2021-07-26T09:50:40Z
+@manohargrandhi6881,Tq so much very very useful,1,2021-07-19T01:51:32Z
+@amruthakanthimath9080,ur too good seriously,1,2021-07-13T09:34:12Z
+@Ezhil-rq9in,Nice voice,1,2021-07-11T11:37:10Z
+@busipavankumarreddy5013,"Maam,very good explanation with basics , thank you so much maam",2,2021-07-06T16:38:21Z
+@sreshthasaha5953,What will be answer to this Question:  How to find the values of an arraylist without using loop or iterator? please answer.,1,2021-07-04T07:58:01Z
+@deep_parida,Much appreciated... Bang on target...,1,2021-07-02T17:40:02Z
+@chandrasheker3887,Thanks for enlightening us 👍🙏,1,2021-07-02T06:53:23Z
+@deepakjava3506,I have given interview after going through your videos. Selected...,1,2021-07-02T02:55:50Z
+@shivamrai2889,Thanks a lot for these videos...,1,2021-07-01T09:17:40Z
+@durgamadhabajena320,This is some top class teaching. One of the best java explainers that I have came across.,4,2021-06-28T19:13:10Z
+@vaseemsd3381,Today my interview.hope this help me.,1,2021-06-28T04:22:02Z
+@-GSaiSiddharthReddy,My sister got Job because of this video,3,2021-06-20T06:49:55Z
+@priyankachougule4334,Thank you @CodeDecode..I just recently got opportunity in company for lead role in just a month and I am having 5 years experience only..it&#39;s kind of achievement in my organization..please keep post videos with same enthusiasm. Thank you 🙂🙏,10,2021-06-19T06:20:53Z
+@rohith1976,Omg I watched your video today morning before my interview I got exact same questions from this thank you ❤️,320,2021-06-18T16:04:09Z
+@MalaysiaLoManiGaadu,yes most of the questions above were asked by me in the java developer interview.,1,2021-06-16T06:42:11Z
+@googlyization,What is the advantage of composition over Inheritance,1,2021-06-15T13:29:09Z
+@vigneshm4916,When to use abstract class and when to use an interface ? Could you please let me know?,2,2021-06-14T08:02:56Z
+@chandu92,Please upload spring interview questions and answers.,1,2021-06-08T10:47:08Z
+@Pishkoo,Best one,1,2021-06-07T13:38:51Z
+@Priya1_123,"Straight to the point, lot of information covered and it&#39;s quite useful for interviews.👍",16,2021-06-05T12:20:14Z
+@Siva-xq1qd,Could you please answer the questions with a practical approach? So that we can understand deeply rather than bookish knowledge of the Java,1,2021-06-02T06:45:29Z
+@Siva-xq1qd,In depth knowledge is required to answer these kind of questions 🤨🤨🤨🤨😞😞😞,2,2021-06-02T06:36:45Z
+@RohitKumar_jijju,Are u a student of HK..?,0,2021-05-30T06:55:58Z
+@rajashekarreddy3505,Nice explanation..tq,1,2021-05-30T05:15:44Z
+@sagar8257,very good.,1,2021-05-28T21:32:19Z
+@surajdangat2980,"Just to addition :- Also when we kill executing thread, Finally also not execute.",1,2021-05-28T05:32:10Z
+@shivasaikrishna5782,In jit compiler question where is jvm java virtual machine,0,2021-05-27T13:08:22Z
+@maheshakkemwar509,Thanks 3000,1,2021-05-24T07:34:47Z
+@thisissuvv,"Its very helpful, still I would request you if you can provide a pdf , otherwise also its fine.",2,2021-05-15T07:09:23Z
+@priyankachougule4334,Great Content &amp; precise explanation! These are all the questions I faced in the interviews. It really helps me &amp; boosting my confidence! Thanks a ton!,60,2021-05-15T04:55:26Z
+@shubhamsingh-cm4be,Make a video for JWT,1,2021-05-11T07:59:53Z
+@muralijava552,what is the difference between collection and stream and difference between object oriented and functional,1,2021-05-10T12:22:19Z
+@shaileshsharma82,"<a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=867"">14:27</a> sab se pehle was the best",2,2021-05-07T18:38:48Z
+@vishalrajilu143,Nice video!,1,2021-05-06T21:32:43Z
+@shubhamtyagi8029,"Very helpful, clear, to the point and nice content. Please try to make video on Serialization and Multithreading concepts also.",7,2021-04-29T11:45:44Z
+@SumitSharma-bn1wp,Does anyone know why are pointers unsafe?,1,2021-04-25T09:17:02Z
+@nitupandey7520,Mam plz one things u do just explain slowly if it&#39;s possible...,1,2021-04-23T19:39:09Z
+@nitupandey7520,Very helpful video thanks a lot 👍,1,2021-04-23T19:19:11Z
+@rams6227,Perfect explanation..thanks for all your videos which is really helpful...can you post something on Java threads please.,3,2021-04-21T21:36:56Z
+@livelifekingsize9930,Hi mam ..do u offer any java courses ..,1,2021-04-15T17:08:56Z
+@soumikbanerjee3059,This is top-drawer stuff. Thanks a ton.,19,2021-04-11T05:56:33Z
+@srinivash292,Thanks a lot. Is there a way you can share you ppt slides that you are using? That would be really helpful in going back revising after watching you videos,4,2021-04-08T22:13:49Z
+@ashishtiwari3770,"Most helpful video for interview as well as personal learning purpose.Voice is as clear as the explanation. Sabse Pehle  at <a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=869"">14:29</a> 😄",9,2021-04-06T02:58:41Z
+@paritoshdalai9035,I cracked Wipro wilp 😊,3,2021-04-04T12:53:59Z
+@AA-dl8jw,Please do more videos on core java interview questions,2,2021-04-02T13:53:35Z
+@RahulSahs,Can i get the above slides in pdf version?,0,2021-04-01T14:15:00Z
+@nilosreedas275,"Hi,<br>While explaining the singleton design at aroung <a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=915"">15:15</a> you are mentioning that for initializing the reference variable single_instance you are creating a static block, but its a static method right???",1,2021-03-31T05:33:16Z
+@Yhsk-ih5ym,"public, private, protected are called access modifiers, then what are static, non-static are called? And what is the difference between access specifiers and access modifiers?",2,2021-03-28T02:27:50Z
+@tejabhadhurgama9060,Thank you..Very nice explanantion.. Please prepare interview questions on threads as well,1,2021-03-27T03:50:21Z
+@laxminarasimham4080,how i missed these videos,1,2021-03-18T17:07:20Z
+@kumaraveeravenkataganeshpi7188,Super madam,1,2021-03-16T16:07:29Z
+@shubhamshukla2385,soo much to learn from this video..<br>thank u mam,1,2021-03-15T20:02:40Z
+@dancerlashya,"Really Useful<br>I have a doubt, What is the difference between Immutable class and Singleton class",2,2021-03-14T08:38:13Z
+@bhaktiprayag.09,"I did not get the point of JIT compiler, it compiles and not interprets, I didn&#39;t get that point, can u please elaborate just the last bit of your JIT segment.",1,2021-03-06T07:30:38Z
+@santhoshivempati9757,Very nice and informative...which i have never seen anywhere. Thank you so much. Its very helpful to me,2,2021-03-05T13:45:47Z
+@777megapixel,"It&#39;s very useful, thank you!",2,2021-03-04T20:41:37Z
+@kamalnayan5331,"Thanks a lot mam ..😁, keep making such videos",2,2021-03-01T18:44:39Z
+@NaveenSMaRK,Tanks for ur Video.. its very helpful to prepare For interview so do more interviews videos,2,2021-02-24T09:53:32Z
+@venkateshk3725,"Thank you so much &#39;Code Decode&#39; team for these awesome videos. For few months, I&#39;m struggling to switch from manual testing to Java developer. Not able to crack interviews. But now I got confidence after watching these channel videos. Suddenly 5 days back I came across this channel, all videos are insightful. I will watch all videos and share video links to the needy. Can you please add a video on the multi-threading detail tutorial?",39,2021-02-24T04:41:53Z
+@nisargpatel2958,"Great Videos, Thank you",2,2021-02-23T12:12:36Z
+@rajasekharb4667,What is abstraction and where you used in your application? 7yrs exp candidate how well can he answer this question. What is the answer interviewer is expecting,2,2021-02-16T12:05:34Z
+@silpavig6838,Thank u mam <br>Can you please make videos on new features in Java 8,2,2021-02-02T14:53:11Z
+@tko9753,Why would you create immutable class? And isn’t it the same as abstract class?,1,2021-02-01T19:07:21Z
+@sagar1691,Very well explained...looking forward to watch and learn more on java,2,2021-01-31T13:39:19Z
+@ritesh_b,Best place to learn JAVA love it,3,2021-01-28T08:51:27Z
+@arpitsohar174,"Nice video but can be improvised. The answer for singleton was not completed, you can add the impact of multithreading on getInstance method.",2,2021-01-25T13:03:54Z
+@charu6363,"Yes, please more interview questions for java and JavaScript. Thank you.",6,2021-01-22T20:38:25Z
+@jeevansaimanikanta782,Could you please elaborate about Hit compiler. Based on what you said the jit compiler takes bunch of byte code and convert or compile to machine code to boost up the performance. So the doubt is does the interpreter has no role in the JRE,5,2021-01-22T04:13:39Z
+@janupandu2091,Super can u pls say how to prepare i degree 2nd year in 3rd year itself i want get job plsss.....,0,2021-01-20T13:03:00Z
+@harshadramekar,"Please create Core Java, Collection, Spring, Spring boot, Restful webseries and microservices interview questions for 6+ years experience.",1,2021-01-19T15:49:10Z
+@umeshnayak9830,Thanks for this 👍,1,2021-01-17T05:23:09Z
+@rakeshmallick9479,All of your videos I have seen it is super,1,2021-01-08T23:18:09Z
+@ipshamohanty6682,"Please post important interview q and a&#39;s on Advanced java topics, java 8 topics such as functional programming, lambda expressions, streaming APIs and java 10 concepts",1,2021-01-08T09:27:18Z
+@hasanhussain9238,Thnku mam it was so helpfull😊,1,2021-01-01T12:43:33Z
+@usamaansari7903,best,1,2021-01-01T05:01:45Z
+@bunnyhop9798,What are coding questions..on Java?,1,2020-12-20T12:51:36Z
+@mayankshahabadeeoneeightze2529,love your playlist. questions were of good level.,2,2020-12-19T03:09:31Z
+@rohanguptamusic,this is perfect wooww,6,2020-12-18T15:44:31Z
+@VishalSharma-rn7mt,awesome,2,2020-12-17T16:17:15Z
+@rockgemini,Please activate your Windows!,1,2020-12-13T16:45:32Z
+@Pankaj_w27,Tysm ur ans are sweet as ur voice.,0,2020-12-05T19:27:39Z
+@jayakrishna-xx4io,its so nice of you mam your videos are helping in right time and we want more in java and as well as DBMS interview questions.....✌✌☺☺☺,1,2020-12-04T16:17:02Z
+@Nehakumari-qt5hj,"Hi, First of all Thank You so much for this wonderful video. I have one question why we should not call static method directly using object reference?",2,2020-11-29T14:03:08Z
+@mohanaraobongu4314,"Here is my <a href=""http://question.do/"">question.Do</a> you really think every empty interface is a marker interface ?",0,2020-11-24T00:41:10Z
+@rohit_884,"<a href=""https://www.youtube.com/watch?v=PwiuAebCruY&amp;t=573"">9:33</a> system.crash() 😋. Loved the video though!",9,2020-11-20T10:13:52Z
+@MohammadIshfaqueJahanRafee,that sabse pehle :) :). Good work though.,2,2020-11-13T18:51:31Z
+@sudhakarthangavelu7164,Can you please provid collection related interview questions,5,2020-11-10T10:10:11Z
+@rexsam3134,Pls take session on Threads Thread pool Executor etc complex examples,1,2020-11-09T19:20:26Z
+@amarthyaseshu683,"Mam, you said you can call the static method by creating an object also, but you should not call like that, means is there any reason for not calling like that?",2,2020-11-09T15:42:47Z
+@rithikamurali2000,Amazing! But I don&#39;t understand the part why we go for marker interface,0,2020-11-07T13:53:21Z
+@deathrain1832,so JIT compiler doesn;t need byte code is it?,0,2020-11-05T04:32:01Z
+@sebastiananj5767,Good,1,2020-11-04T15:56:36Z
+@rishav.raj179,One of the best video. If possible please make more.,1,2020-10-30T18:32:52Z
+@ashishpal5446,Very smooth explanation... Thank you so much for these kind of videos... This helps very much while looking for job change... Keep doing it ✌️,5,2020-10-27T14:12:02Z
+@shefalisuryavanshi1154,Very clearly explained the concept behind any topic.. thanks,2,2020-10-24T17:43:50Z
+@mohammedsardar3779,Thanks for explaining diligently.,1,2020-10-24T04:32:34Z
+@theSeniorSDE,Thanks for making such informative videos. I am preparing for interviews and your channel is helping me alot. I will let you know after I crack my interview 😊,433,2020-10-22T04:16:42Z
+@sauravsengupta1544,"Hello Ma&#39;am, could you kindly create a tutorial on Thread Executor Framework? Thanks in advance and thank you so much for providing such useful content through your channel.",6,2020-10-20T17:40:12Z
+@abhatiwari4622,thank you mam,1,2020-10-16T02:23:34Z
+@NareshKumar-dw9xp,Thank you 3000,2,2020-10-14T10:23:35Z
+@ramanujam09,String was made immutable as the string literal carries a meaning to it. When it changes its no more the same thing hence the object must also change. Your explanation speaks of how it was implemented once it was decided to be immutable.<br>Good video. Thank you.,0,2020-10-11T05:00:05Z
+@JP-uv2nh,Straight to the point. Clearly explained. Thank you so much.,40,2020-10-10T03:43:47Z
+@sathyapss8966,How can i get job offer mam? Plz tell me mam..I&#39;m a fresher for dhz job,1,2020-10-08T08:21:20Z
+@sathyapss8966,Thank u so much mam..,2,2020-10-08T05:27:30Z
+@thecodingknowledge5565,very simply explained thank you ma&#39;am,1,2020-10-07T15:44:57Z
+@AyeshaKhan-lb8vq,Great video with amazing explanation.. 👍👍,3,2020-09-27T18:40:20Z
+@Devdumplings,Please do a video on SOLID principles,1,2020-09-25T18:30:00Z
+@letsexplore7806,great video !,1,2020-09-22T19:03:08Z
+@Santosh-Kumar-D,@Code Decode  please make a video on what is required and how deeply one should learn java and what should we do after learning java to get a good job as java developer. <br><br><br><br>(For an ECE Student)...bcoz whole java will not be there in ECE academics.,3,2020-09-19T00:25:29Z
+@Santosh-Kumar-D,Mam.....shocked seeing these questions.....are these asked for freshers or experienced ??,0,2020-09-18T17:56:56Z
+@NehaSingh-yv2jn,Totally insightful. Thank you for making this amazing video.,12,2020-09-13T03:29:26Z
+@kcinbhardwaj,"Thanks lots, you are doing real social services..",3,2020-09-12T01:45:13Z
+@pooranik5342,"Very very useful <a href=""http://video.do/"">video.do</a> more videos on spring boot and other topic",1,2020-09-06T20:51:35Z
+@shrikantshelar5044,Awesome,0,2020-09-04T20:11:35Z
+@shubhamtagalpallewar7125,"Thank you ma&#39;am, these are real time interview questions, which I had faced too, getting more clarity with your videos now..<br>also if possible please make videos on exception handling interview questions...",21,2020-09-03T16:07:19Z
+@UU237,Thanks you videos are really helping me to brish up quickly especially when i am not getting time to read i hear you videos even while cooking :) ...please make a detailed one on mulyi threading and files...these have been always my week points,7,2020-09-02T10:21:06Z
+@ManojDhaware,"Nicely Explained !! Please upload some more videos with memory management,thread,exception and basics OOps concept !! It&#39;d we very nice if only interview questions &amp; answers provided.",8,2020-09-01T09:51:39Z
+@virendrasinghbais9028,That&#39;s what I was looking for. You have great experience with interviews. Would you mind sharing your linkedin profile?,6,2020-08-26T18:55:44Z
+@harmanmax,"nice explanation mam  , am background from php from last 6 year now just started<br> learning Java . this is good start for helping me and others  , thank you.",9,2020-07-18T11:46:36Z
+@NehaSharma-ds3ur,well explained. please make a video for other common java question asked in an interview,1,2020-07-18T09:33:30Z
+@reassume4826,Really cool video... Thanks ma&#39;m,1,2020-07-15T19:57:51Z
